@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unchagaon - Official Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav id="navbar">
+        <div class="container">
+            <h1 class="logo">Unchagaon</h1>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contacts.html">Contacts</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="slider-container">
+            <div class="slider">
+                <div class="slide active">
+                    <img src="./1.png" alt="Village Landscape">
+                    <div class="slide-content">
+                        <h2>Welcome to Unchagaon</h2>
+                        <p>A peaceful haven nestled in nature's embrace</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="./2.png" alt="Village Festival">
+                    <div class="slide-content">
+                        <h2>Rich Cultural Heritage</h2>
+                        <p>Celebrating traditions that span generations</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="./8.png" alt="Village Market">
+                    <div class="slide-content">
+                        <h2>Vibrant Community</h2>
+                        <p>Where neighbors become family</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="./11.png" alt="Village Scenery">
+                    <div class="slide-content">
+                        <h2>Natural Beauty</h2>
+                        <p>Surrounded by breathtaking landscapes</p>
+                    </div>
+                </div>
+            </div>
+            <button class="prev-btn"><i class="fas fa-chevron-left"></i></button>
+            <button class="next-btn"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </section>
+
+    <!-- Weather Section -->
+    <section id="weather" class="section">
+        <div class="container">
+            <h2 class="section-title">Current Weather</h2>
+            <div class="weather-card">
+                <div class="weather-icon">
+                    <img id="weather-icon" src="/placeholder.svg" alt="Weather Icon">
+                </div>
+                <div class="weather-info">
+                    <h3 id="village-name">Unchagaon</h3>
+                    <p class="temperature"><span id="temperature">--</span>°C</p>
+                    <p class="description" id="weather-description">Loading weather data...</p>
+                    <p class="humidity">Humidity: <span id="humidity">--</span>%</p>
+                    <p class="wind">Wind: <span id="wind-speed">--</span> km/h</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>Unchagaon</h3>
+                    <p>Kunda, Pratapgarh</p>
+                    <p>UP, PIN: 230202 </p>
+                    <p>Email: harsht2705@gmail.com</p>
+                </div>
+                <div class="social-links">
+                    <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Unchagaon. All Rights Reserved to Harsh Tiwari.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
